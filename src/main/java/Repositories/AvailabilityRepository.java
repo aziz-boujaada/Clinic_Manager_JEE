@@ -10,7 +10,7 @@ public interface AvailabilityRepository {
 
     List<Availability> findAll();
     Optional<Availability> findById(long id);
-    Availability save(Availability department);
-    Availability update(Availability department);
+    Availability save(Availability availability);
+    Availability update(Availability availability);
     boolean deleteById(long id);
 }
